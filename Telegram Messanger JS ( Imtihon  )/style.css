@@ -1,0 +1,173 @@
+.contact-item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 20px  30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.contact-item:hover{
+    background: gray;
+}
+:active.contact-item{
+    background: #766AC8;
+}
+
+
+body{
+    background-image: url(./img/Desktop.webp);
+
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+
+.contacts {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 350px;
+    margin-left: -7px;
+    position: relative;
+    text-align: start;
+    background-color: #212121;
+    font-size: 30px;
+    height: 630px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow-y: scroll;
+    margin-top: -85px;
+    
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    border-radius: 5px;
+    width: 2rem;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+}
+
+.owner{
+    font-size: 20px;
+    color: #ffffff;
+    background: #7569C6;
+    width: 140px;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    margin-top: -240px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.modal{
+    margin-left: auto;
+}
+
+.user-name{
+    border-radius: 2px;
+    background-color: #212121;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin-left: 440px;
+    margin-top: -7px;
+    padding: 15px;
+    width: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Profile-img{
+    padding: 11px;
+    background-color: #212121;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 380px;
+    margin-top: -665px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.user-name{
+    cursor: pointer;
+}
+
+
+.Photo{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+    position: relative;
+}
+
+.search{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    overflow:1px #8774E1;
+    margin-top: 30px;
+}
+
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    padding: 3px;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.send{
+    width: 350px;
+    margin-left: 510px;
+   padding: 20px 10px;
+   color: white;
+   background: #212121;
+   position: absolute;
+   outline: none;
+   margin-top: -110px;
+   border-top-right-radius: 20px;
+   border: none;
+}
+.btn{
+    width: 100px;
+    padding: 12px 10px ;
+    margin-left: 890px;
+    margin-top: -103px;
+    position: absolute;
+    background: #212121;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:hover.btn{
+    background: white;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
